@@ -5,13 +5,13 @@
  <section class="hero is-link is-large">
    {{ partial "header" . }}
 </section>  
-<section class="hero is-link is-bold is-fullheight-with-navbar">
+<section class="hero is-link is-fullheight-with-navbar">
 <div class=hero-body>
 <div class=container>
 <h1 class="title is-1">Hello!</h1><h1 class="title is-1">Namaste!</h1>
 <br>
-<h2 class="subtitle is-4">Bienvenu, santm.com is now 20 years young.</p>Please visit the Blog section for more.</h2>
-</p>Parts of the web site might be broken due to frequent changes</h2>
+<h2 class="subtitle is-4">Bienvenu, santm.com is now 20 years young.</p>Please visit the <a href="/blog" class=""><u>Blog</u></a> section for the latest.</h2>
+<span class="is-family-code has-text-weight-light">Parts of the web site might be broken due to frequent changes.</span>
 </div>
 </div>
 </section>
@@ -20,7 +20,7 @@
   <div class="container">
     <p class="has-text-centered title is-3">Latest Blog Posts</p>
     <div class="tile is-ancestor">
-      {{- range ( where site.RegularPages "Section" "posts" | first 3 ) }}
+      {{- range ( where site.RegularPages "Section" "blog" | first 3 ) }}
       <div class="tile is-parent">
         <article class="tile is-child box">
         <p class="title is-5"><a href="{{ .Permalink }}">{{ .Title }}</a></p>

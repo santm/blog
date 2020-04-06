@@ -19,14 +19,12 @@ mosquitoes everyone till they are in grave.
 Killing pestering pests & insects.  
 Saves 3.5 billion dollars because it does the same thing as the pesticide.  
   
-Pollinator of flowers which bloom in colour   
+Pollinator of flowers which bloom in colour  
 to become delicious fruits.  
 The real hero he should become true savior.  
-But what stops him is a germ   
+But what stops him is a germ  
 making him a killer of men  
 why do so Mr. Germ ?  
 Please give a good reason ?  
-  
-  
   
 >When Aarush penned down this poem on a Saturday morning, the **Covid-19** was limited to China and newspaper in India. Now in April things are very different from that day.

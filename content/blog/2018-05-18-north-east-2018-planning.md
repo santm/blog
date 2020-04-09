@@ -1,10 +1,11 @@
-+++
-title = "North East 2018 planning "
-slug = "2018-05-18-north-east-2018-planning"
-published = 2018-05-18T18:34:00.002000+05:30
-author = "Pamela Bhattacharya"
-tags = [ "north east", "assam", "travel plan", "meghalaya", "road trip",]
-+++
+---
+title : "North East 2018 planning "
+slug : "2018-05-18-north-east-2018-planning"
+published : 2018-05-18T18:34:00.002000+05:30
+author :  "Pamela Bhattacharya"
+tags : [ "north east", "assam", "travel plan", "meghalaya", "road trip",]
+featured_image : "/images/featured/Northeast_india.png"
+---
 > Long prologue … someone once said...  
 ***Happiness is to plan a trip to somewhere new with your loved one.***  
 

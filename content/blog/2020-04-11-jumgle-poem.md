@@ -2,7 +2,7 @@
 title: "Jumgle - a poem"
 date: 2020-04-11T22:02:00+05:30
 author: "Aarush Misra"
-tags: ["jnngle","poem", "Aarush"]
+tags: ["jungle","poem", "Aarush"]
 featured_image: "/images/featured/jungle-poem.jpg"
 ---
 #### 2019 July  @ Bangalore ####

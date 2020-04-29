@@ -1,5 +1,5 @@
 ---
-title: "Jumgle - a poem"
+title: "Jungle - a poem"
 date: 2020-04-11T22:02:00+05:30
 author: "Aarush Misra"
 tags: ["jungle","poem", "Aarush"]

@@ -1,7 +1,9 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item has-text-weight-bold" href="/">
-      SantM
+    <a href="/">
+      <figure class="image is-128x128">
+        <img class="is-rounded" src="/images/logo192.JPG" alt="HomePage" style="padding: 15px;">
+      </figure>
     </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true" class="has-text-white" ></span>
@@ -10,15 +12,10 @@
     </a>
   </div>
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      {{ range .Site.Params.LeftMenu }}
-      <a class="navbar-item" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a>
-    {{ end }}
-    </div>
     <div class="navbar-end">
       {{ range .Site.Params.RightMenu }}
       <a class="navbar-item" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i>
-      &nbsp; &nbsp; <span class="is-uppercase has-text-weight-bold "> {{ .medium }} </span></a>
+      &nbsp; <span class="is-uppercase has-text-weight-bold "> {{ .medium }} </span></a>
       {{ end }}
     </div>
     <div class="navbar-item"><form class="is-marginless" action="/search/" method="get">

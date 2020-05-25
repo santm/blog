@@ -1,9 +1,11 @@
 ---
-title : "Day - 1  Maa Kamakhya here we come !!!"
+title : 'Guwahati, Day-1 -- Assam & Meghalaya Trip 2018'
+subtitle: 'Maa Kamakhya here we come !!!'
 slug : "2018-05-19-day-1-maa-kamakhya-here-we-come"
 published : 2018-05-19T19:36:00+05:30
 author : "Pamela Bhattacharya"
-tags : [ "kamakhya", "assam", "guwahati", "road trip",]
+tags : [ "kamakhya", "assam", "guwahati", "road trip"]
+categories: [Travel, India, Assam]
 featured_image : "/images/featured/Kamakhya.jpg"
 ---
 # Guwahati Kamakhya  
@@ -16,7 +18,7 @@ After security check-in we were seated in the lounge, talking and watching peopl
 
 On boarding the flight we met surprisingly one of the friends and his son on the same flight who were supposed to go with us to Shillong initially but had to cancel due to last minute emergency. The father-son duo was going just for a family function. We spoke two words and moved on to our designated seat. After waking up so early, me and my son were really hungry waiting for the breakfast which we have pre-ordered. Santanu was first one and me in between dozed off but my son was completely awake whole of the time.  
 
-In between, that friend of Santanu came and spoke to us for some time about his family matters and even my son went to talk to his son. On landing, we had a quick selfie and parted our ways. Santanu's cousin was waiting outside for us with his car.  
+In between, that friend of Santanu came and spoke to us for some time about his family matters and even my son went to talk to his son. On landing, we had a quick selfie and parted our ways. Santanu's cousin was waiting outside for us with his car. 
 
 Maa Kamakhya Temple which is situated on Nilachal hill and is one of the oldest of the 51 Shakti Pithas.   Shakti Peethas are shrines or divine places of the Mother Goddess. These are places have been blessed with the presence of divinity due to the falling of body parts of the corpse of Sati Devi, when Lord Shiva carried it and wandered in sorrow.Now out of  51, 4 are considered Adi(primary ) Shakti Pithas and Kamakhyais one of them. The main temple is a cave of indeterminate age, with rock steps leading down to the garbhagriha. According to Kalika Purana, the site marks the spot where the yoni of the Goddess fell, and the hill turned blue. The deity is represented by a representation of the yoni.
 

@@ -1,9 +1,11 @@
 ---
-title : "Kaziranga  - information you need to know before visiting"
+title : 'Kaziranga  - Information to know before visiting'
+subtitle: 'Assam & Meghalaya Trip 2018'
 slug : "2020-01-03-kaziranga-information-you-need-to-know-before-visiting"
 published : 2020-01-03T12:26:00.002000+05:30
 author : "Santanu Misra"
 tags : [ "national orchid garden", "north east", "forest", "assam", "Kaziranga"]
+categories: [Travel, India, Assam, Information]
 featured_image: "/images/featured/Kaziranga-National-Park-map.svg"
 ---
 Kaziranga is one of the bigger National Park of India. It has three prominent zones - **Central, Western and Eastern.**

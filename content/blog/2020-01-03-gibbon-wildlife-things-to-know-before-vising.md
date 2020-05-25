@@ -1,9 +1,11 @@
 ---
-title : "Gibbon Wildlife -- Things to know before vising."
+title : 'Gibbon Hollongapar Wildlife - Information to know before visiting'
+subtitle : 'Assam & Meghalaya Trip 2018'
 slug : "2020-01-03-gibbon-wildlife-things-to-know-before-vising"
 published : 2020-01-03T13:45:00.001000+05:30
 author : "Santanu Misra"
 tags : [ "north east", "forest", "assam", "gibbon"]
+categories: [Travel, India, Assam, Information]
 featured_image : "/images/featured/Hoollongapar_Gibbon_signpost.jpg"
 ---
 ## Hollongapar GIBBON WILDLIFE SANCTUARY

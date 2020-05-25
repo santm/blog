@@ -1,9 +1,11 @@
 ---
-title : "Day-3 Long day, Long drive- CRAZY ONE - Meghalaya"
+title : 'Driving Khasi Hills, Day-3 -- Assam & Meghalaya Trip 2018'
+subtitle: 'Long day, Long drive - CRAZY ONE'
 slug : "2018-12-17-day-3-long-day-long-drive-crazy-one-meghalaya"
 published : 2018-12-17T17:31:00.001000+05:30
 author : "Pamela Bhattacharya"
-tags : [ "Shillong", "meghalaya", "road trip",]
+tags : [ "Shillong", "meghalaya", "road trip"]
+categories : [Travel, India, Meghalaya]
 featured_image : "/images/featured/Dawki.jpg"
 ---
 Last night could not have proper sleep as in the middle of the night there was a sudden storm, followed by rain and finally power cut off. We got up around 6 AM and moved out of the place before 7 AM so as to avoid school traffic. We headed towards Elephant caves which come on the way to Cherrapunji, before that we saw the sign for Shillong Peak. And the sun was perfect to see the entire Shillong from the peak but as we approached near the turning and asked one passer-by whether it will be open. He smiled and said not before 9 AM so we proceeded towards Elephant Caves. Before this comes one famous eatery **ML-05 Cafe** *(ML 05 is Shillog's Vehicle Registration Code)*. This café is located near the Eastern Air Command in Shillong which was highly recommended last night but unfortunately, it was closed when we were crossing it.
@@ -24,11 +26,11 @@ Khasis believe that guardian spirit resides in the forest in two forms-tiger and
 
 We got into our car and moved out of this place as we had to go **Dawki** - Which means we need to come to that V junction and now take the other route. In that way, we stopped for having brunch at a small place. This road is very scenic with mountains and hills, you can see white cotton-clouds looming in between. 
 
-Indeed, we were amazed by the quality of the roads, and the road to Dawki is the idyllic hill drive (till last 5 KMs before it starts showing wear and tear due to heavy vehicles). At first, I thought this was the result of tourism but later learned that this had more to do with the area’s economic importance of the limestone and coal mines.  
+Indeed, we were amazed by the quality of the roads, and the road to Dawki is the idyllic hill drive (till last 5 KMs before it starts showing wear and tear due to heavy vehicles). At first, I thought this was the result of tourism but later learned that this had more to do with the area’s economic importance of the limestone and coal mines. 
 
 > Some beautiful paths can’t be discovered without self driving or  getting lost.
 
-The cool, wet airbrushes over your face and lush greenery around refreshes and revitalizes you as it enters your body. Dawki is a small village and its main attraction is the Umngot River that marks the natural separation between the Khasi and the Jaintia Hills. The river can be crossed by a suspension bridge that connects India to Bangladesh and facilitates trade between the two nations.  
+The cool, wet airbrushes over your face and lush greenery around refreshes and revitalizes you as it enters your body. Dawki is a small village and its main attraction is the Umngot River that marks the natural separation between the Khasi and the Jaintia Hills. The river can be crossed by a suspension bridge that connects India to Bangladesh and facilitates trade between the two nations. 
 
 This place is very famous for the emerald green transparent river which I was excitingly waiting for but due to rains, it was very disappointing. Many people did say that but I was adamant to see through my eyes :)....my bad-luck. People take boat rides there in season. We crossed the bridge and went to see **Tamabil**(Indo-Bangladesh border) where road condition was extremely bad. Big trucks were waiting for their turn in 2-3 lanes leaving only one lane to allow the vehicles to pass-by from either side. We reached near the border, parked our vehicle but on our return, it was almost 1-hour wait as no vehicles were able to move.
 
@@ -36,7 +38,7 @@ With great difficulty, we were able to come out of that area and zoomed towards 
 
 Then came towards Mawlynnong which is also said to be gods own garden. When we reached there it was almost getting dark, we went near the stream gushing down and climbed up to their village which is very neat; avoided their living root bridge as it would turn completely dark. There we had some noodles and hit the road back to Cherrapunji.
 
-After some hour nature starts to hide and seek game with fog and it was dense enough that we could hardly see anything in 10 meters; very poor visibility which is difficult to explain people living in plains. We tried following the tail-light of other vehicles but in vain - could not match up with their speed. Then we decided to maintain our 10-20Km speed by keeping two tires in between the white midline demarcation.  
+After some hour nature starts to hide and seek game with fog and it was dense enough that we could hardly see anything in 10 meters; very poor visibility which is difficult to explain people living in plains. We tried following the tail-light of other vehicles but in vain - could not match up with their speed. Then we decided to maintain our 10-20Km speed by keeping two tires in between the white midline demarcation. 
 
 Only when any vehicle used to come from the opposite side we use to go to side otherwise back again in the same way. At one point, it was so stressful, that I told Santanu to pull over and move the vehicle off the road; sleep inside the car only rather than taking risk of 3 lives. I really panicked and repented of my decision of going to Dawkii. But now Santanu was quite confident and continued driving at very low speed. At one point we got one cab whom we could follow for last 45 min. and was able to maintain pace with him. 
 

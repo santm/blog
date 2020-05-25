@@ -1,9 +1,11 @@
 ---
-title : "Second Day in Kaziranga (April 2018)"
+title : 'Kaziranga Part-II, Day-7 -- Assam & Meghalaya Trip 2018'
+subtitle : 'Elephant Safari and lots of Orchids'
 slug : "2020-01-03-second-day-in-kaziranga-april-2018"
 published : 2020-01-03T13:32:00.001000+05:30
 author : "Santanu Misra"
 tags : [ "north east", "forest", "assam", "Kaziranga"]
+categories: [Travel, India, Assam]
 featured_image: "/images/featured/Kaziranga-orchid.jpg"
 ---
 Our hotel **Wild Grass** was next to **Central Zone**. For the second day in Kaziranga, we supposed to have ***Elephants Safari*** in the morning. Now there are 2 places where you can have elephant safari. The central zone is very popular, is difficult to get, The counter opens at 7 PM in the evening prior and people line up for long, there is a priority to foreign tourist. Our hotel arranged for the Western Zone.  

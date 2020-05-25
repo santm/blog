@@ -15,13 +15,14 @@
         {{.Content}}
 
 
-      <table class="table is-striped is-hoverable">
+        <table class="table is-striped is-hoverable">
         {{- range .Data.Pages.GroupByDate "2006" }}
-      <tr>
-        <th class="has-text-centered" colspan="3">
-          {{ .Key }}
-          </th>
-        </tr>  <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
+       
+        <thead><tr>
+        <th class="has-text-centered subtitle is-2" colspan="3">
+         Posts from  {{ .Key }}
+          </th></tr></thead>
+         <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
         {{ range .Pages }}
         <tr>
           <td class="is-hidden-mobile has-text-right">{{ .Date.Format "Jan 2, 2006"}}</td>
@@ -30,8 +31,9 @@
             </td>
           </tr>
         {{ end }}
+        
         {{ end }}
-</table>
+      </table>
 </div>
 </div>
 </section>

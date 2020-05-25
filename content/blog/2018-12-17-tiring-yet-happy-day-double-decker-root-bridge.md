@@ -1,9 +1,11 @@
 ---
-title : "Tiring yet happy day - Double Decker Root Bridge"
+title : 'Double Decker Bridge, Day-4 -- Assam & Meghalaya Trip 2018'
+subtitle: 'Tiring yet happy day - Cheerapunji'
 slug : "2018-12-17-tiring-yet-happy-day-double-decker-root-bridge"
 published : 2018-12-17T17:37:00.001000+05:30
 author : "Pamela Bhattacharya"
-tags : [ "hiking", "meghalaya", "road trip",]
+tags : [ "hiking", "meghalaya", "road trip"]
+categories : [Travel, India, Meghalaya]
 featured_image: "/images/featured/double-decker-root-bridge.jpg"
 ---
 Today we got up pretty late compared to other days. Had breakfast and left the hotel around 9 AM. There are some journeys in life which are hard to forget. Our trek to the much talked about Double Decker Root Bridge was one such journey for me. Staying at **Cheerapunji Holiday** resort has one advantage that it is hardly 7 km away from double-decker root bridge. We went 5 KM till Tyrna village where we parked our car and then 3KMs of hiking we were told by hotel people. When we asked for a guide they said it's not required, moreover its all marked and proper cemented pathway so no chance of getting lost.  

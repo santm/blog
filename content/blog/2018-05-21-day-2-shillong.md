@@ -1,9 +1,11 @@
 ---
-title : "Day 2 - Shillong "
+title : 'Shillong, Day-2 -- Assam & Meghalaya Trip 2018'
+subtitle: 'Drive to Shillong from Guwahati and exploring Shillong'  
 slug : "2018-05-21-day-2-shillong"
 published : 2018-05-21T11:29:00+05:30
 author : "Pamela Bhattacharya"
-tags : [ "Shillong", "assam", "police bazar", "zoom car", "meghalaya", "road trip", "Umiam lake",]
+tags : [ "Shillong", "assam", "police bazar", "zoom car", "meghalaya", "road trip", "Umiam lake"]
+categories: [Travel, India, Meghalaya]
 featured_image : "/images/featured/Shillong.jpg"
 ---
 We started early morning with a drive to pick-up point of our rented car. This place was in such an area where proper roads were not there….it was full of potholes and filled with rainwater from previous rains. One thing is there Guwahati inner roads are not great and even city is not that clean...full of plastics. Anyways we zoomed out from that place without much wastage of time and hit the highway.  
@@ -17,7 +19,7 @@ thick coniferous forests. One can take a long boat ride in the lake, and adventu
 
 We slowly proceed towards **Orchid Lake Resort** to have our breakfast. We were offered with buffet breakfast which was 300 INR for adults. Their dining hall has a high ceiling and at the centre, a fireplace for winters or maybe night time. Dining Hall windows face towards lakefront and their garden which is nicely maintained.  
 
-## Shillong 
+## Shillong
 
 We had our breakfast which was more of brunch and then took a tour of their lake facing the garden and headed straight to Shillong road towards the city. Our Google map guided us to through numerous twists and turns of narrow lanes. On our very fast left turn we too such a narrow cut that felt almost we would **topple** but the traffic police smiled and signaled us to proceed ahead. it was a scary start for what time coming next as we drive though twisted small roads.  
 
@@ -35,10 +37,10 @@ We were surprised to hear that but we smiled and replied: “ Don’t worry we a
 
 We were actually taken back to see the room with slipper, comb, razor etc. with a proper kitchen where one can cook too for themselves if needed.  
 
-As the day became more & more brighter we decided to go for city tour but in meantime, our host called to know our whereabouts and our plan. As we said our plan he proposed to take his army gypsy to police bazar to avoid parking and entry through their gates which will need permission again. By the time he came personally to check if everything 
+As the day became more & more brighter we decided to go for city tour but in meantime, our host called to know our whereabouts and our plan. As we said our plan he proposed to take his army gypsy to police bazar to avoid parking and entry through their gates which will need permission again. By the time he came personally to check if everything
 was fine with us or not.  
 
-In the meanwhile, his gypsy came and we left for police bazaar which was as usual crowded. The driver stopped us near the square and asked us to call once done to which we agreed upon. We strolled through the street. From young to old, the woman looks dazzling, dressed in their traditional attire (**jainsem**), which they pair with matching cardigans and heels. The street was busy with cozy cafes, restaurants and small umbrella shops and varieties of footwear. Side road was busy with their black ***Maruti 800 cab*** (public transport). 
+In the meanwhile, his gypsy came and we left for police bazaar which was as usual crowded. The driver stopped us near the square and asked us to call once done to which we agreed upon. We strolled through the street. From young to old, the woman looks dazzling, dressed in their traditional attire (**jainsem**), which they pair with matching cardigans and heels. The street was busy with cozy cafes, restaurants and small umbrella shops and varieties of footwear. Side road was busy with their black ***Maruti 800 cab*** (public transport).
 
 We walked towards **Ward’s Lake** which is closer to Governor's house. This lake also has a cafeteria and a Botanical Garden, we paid entry fees and then crossed one wooden bridge which takes to another side of the lake. It's nice to watch people boating and feeding fish.  
 
@@ -47,6 +49,6 @@ We took the privilege of perfect evening sunlight and did time pass photography 
 Went to Grover's eatery, which was right at the corner on the first floor of the shopping complex. It has nice decor tastefully done but takes time for food to reach the table. After having some soups and momos we left from there as we had to go to our host's place for dinner.  
 
 We had a nice evening with soothing music in the background. Mrs. Nayyar pampered us with an elaborate spread of starters and main course. It was really nice of ***(colonel) Mr. and Mrs .Nayyar*** to host us. We deeply appreciate their role and thanks them from bottom of our heart to be  part of our memorable journey.  
- 
+
 
 >Stay: At Army Basecamp

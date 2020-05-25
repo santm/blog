@@ -7,39 +7,55 @@ other = "{{ .WordCount }} words"
 [params]
   author = "Santanu Misra"
   description = "Rumblings on life, travel or anything under sun"
-  
-    [[params.LeftMenu]]
-    medium = "Facebook"
-    icon = "fab fa-facebook-square"
+
+  [[params.FootMenu]]
+    medium = "rss"
+    icon = "fa fa-rss-square"
+    link = "/index.xml"
+  [[params.FootMenu]]
+    medium = "facebook"
+    icon = "fa fa-facebook-official"
     link = "https://www.facebook.com/santm"
-  [[params.LeftMenu]]
-    medium = "Instagram"
-    icon = "fab fa-instagram-square"
+  [[params.FootMenu]]
+    medium = "instagram"
+    icon = "fa fa-instagram"
     link = "https://www.instagram.com/s.a.n.t.m/"
+  [[params.FootMenu]]
+    medium = "linkedin"
+    icon = "fa fa-linkedin-square"
+    link = "https://www.linkedin.com/in/santm/"
+  [[params.FootMenu]]
+    medium = "tumblr"
+    icon = "fa fa-tumblr-square"
+    link = "https://pamelascreation.tumblr.com/"
+
+
+
   [[params.RightMenu]]
     medium = "Blog"
-    icon = "fas fa-newspaper"
+    icon = "fa fa-newspaper-o fa-2x"
     link = "/blog"
   [[params.RightMenu]]
     medium = "Photos"
-    icon = "fas fa-camera"
+    icon = "fa fa-camera-retro fa-2x"
     link = "https://www.flickr.com/photos/santm/albums"
   [[params.RightMenu]]
     medium = "About"
-    icon = "fas fa-user"
+    icon = "fa fa-user fa-2x"
     link = "/about"
   [[params.RightMenu]]
     medium = "Contact"
-    icon = "fas fa-id-card"
+    icon = "fa fa-id-card fa-2x"
     link = "/contact"
   [[params.RightMenu]]
     medium = "Tags"
-    icon = "fas fa-tags"
+    icon = "fa fa-tags fa-2x"
     link = "/tags"
 [taxonomies]
     year = "year"
     month = "month"
     tags = "tags"
+    category = "categories"
 [permalinks]
     post = "/posts/:year/:month/:slug/"
     year = "/posts/:slug/"

@@ -3,11 +3,14 @@
   {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">
-    <h1>{{ .Page.Title}}</h1>
+    <h1 class="is-capitalized">{{ .Page.Title}}</h1>
     </div>
   </div>
 </section>
-<div class="container is-fluid column is-8 is-offset-2">
+<section>
+  <div class="container is-fluid column is-8 is-offset-2">
+    <div class="content blog-post section has-text-justified" itemprop="articleBody">
+
   {{ if eq .Kind "taxonomyTerm" }}
     {{ range $.Site.Taxonomies.tags.ByCount }}
       <a class="text-body" href="/tags{{ .Name | relURL }}"> {{ .Name | markdownify }}</a> <sup> {{ .Count }}  </sup>
@@ -15,11 +18,11 @@
   {{ else }}
   <table class="table is-striped is-hoverable">
     {{- range .Data.Pages.GroupByDate "2006" }}
-  <tr>
-    <th class="has-text-centered" colspan="3">
-      {{ .Key }}
-      </th>
-    </tr>  <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
+      <thead><tr>
+      <th class="has-text-centered subtitle is-2" colspan="3">
+       Posts from  {{ .Key }}
+        </th></tr></thead>
+     <!--<div class="is-divider" data-content="{{ .Key }}"></div> -->
     {{ range .Pages }}
     <tr>
       <td class="is-hidden-mobile has-text-right">{{ .Date.Format "Jan 2, 2006"}}</td>
@@ -32,5 +35,5 @@
 </table>
   {{ end }}
 </div> <!-- container is-fluid column is-8 is-offset-2-->
-
+</div>
 {{ end }}

@@ -1,11 +1,13 @@
-+++
-title = "Majuli day 1 (April 2018)"
-slug = "2020-01-20-majuli-day-1-april-2018"
-published = 2020-01-20T10:05:00.001000+05:30
-author = "Santanu Misra"
-tags = [ "north east", "assam", "majuli", "road trip",]
-featured_image= "/images/featured/majuli.jpg"
-+++
+---
+title : "Majuli Part-I, Day-10 Assam & Meghalaya Trip 2018"
+subtitle : ''
+slug : "2020-01-20-majuli-day-1-april-2018"
+published : 2020-01-20T10:05:00.001000+05:30
+author : "Santanu Misra"
+tags : [ "north east", "assam", "majuli", "road trip"]
+categories : [Travel, India, Assam]
+featured_image : "/images/featured/majuli.jpg"
+---
 
 Somewhere on the internet once read the need for ***a vacation within a vacation***. I know it sounds oxymoron but trust me when you are on the road for some time you need a day or two just doing nothing. Majuli was supposed to a magical place for us.  
 

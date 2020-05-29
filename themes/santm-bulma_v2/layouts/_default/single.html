@@ -10,7 +10,7 @@
       <span><i class="fa fa-tags"></i></span>
       {{ range (.GetTerms "tags") }}
       <a href="{{ .Permalink }}" class="tag">{{ .LinkTitle }}</a>
-      {{ end }}
+      {{ end }} <!-- 85537 01 323 shekh --> 
       <span class="breadcrumb is-medium is-centered" aria-label="breadcrumbs">
         <ul><span> <i class="fa fa-link" aria-hidden="true"></i> </span>
           {{ range (.GetTerms "categories") }}

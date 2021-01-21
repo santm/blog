@@ -3,6 +3,7 @@ title: "My Grandmother’s House"
 date: 2021-01-03T22:02:00+05:30
 author: "Aarush Misra"
 tags: ["poem", "Aarush"]
+featured_image : "https://lh3.googleusercontent.com/KwLKs3m8F8IN4P73VDqzilrqKyh0D8b9LU0UUEmkJneY3k4hpyNwGCaHr4_jP9XGXTTu7aFi-lEAj1rqsoQDRXLWAAFeKWW4ZbzZWi2f9Yc6acdu3EkqXmTBFDvEyXlSQ3vXzU2MNlI=w2400"
 ---
 #### 2021 January  @ Durg ####
 

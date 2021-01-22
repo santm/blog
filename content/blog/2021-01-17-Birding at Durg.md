@@ -2,6 +2,7 @@
 title: "Birding at Durg"
 date: 2021-01-18T22:02:00+05:30
 author: "Santanu Misra"
+categories: [Travel, India, Chhattisgarh,Birding]
 tags: ["travel", "photography","birding","nature","friendship"]
 featured_image : "https://lh3.googleusercontent.com/JwHgJFecNr1qpJNmkLPhmwAEmXWe872AQTgd8nyIOHsAC4fBkzUgUYiY3fIIlyW9fevndM_BDMO9zZzOPmC4Pgsp_sje7cPHyno8BIzO1hzn8L7RXuKVasj_DidecIE1HC5kgxEdx3c=w600-h315-p-k"
 ---

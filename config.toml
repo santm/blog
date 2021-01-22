@@ -36,7 +36,7 @@ other = "{{ .WordCount }} words"
   [[params.RightMenu]]
     medium = "Photos"
     icon = "fa fa-camera-retro fa-2x"
-    link = "https://www.flickr.com/photos/santm/albums"
+    link = "/album"
   [[params.RightMenu]]
     medium = "About"
     icon = "fa fa-user fa-2x"

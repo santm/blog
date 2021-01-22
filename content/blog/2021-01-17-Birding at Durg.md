@@ -6,7 +6,7 @@ categories: [Travel, India, Chhattisgarh,Birding]
 tags: ["travel", "photography","birding","nature","friendship"]
 featured_image : "https://lh3.googleusercontent.com/JwHgJFecNr1qpJNmkLPhmwAEmXWe872AQTgd8nyIOHsAC4fBkzUgUYiY3fIIlyW9fevndM_BDMO9zZzOPmC4Pgsp_sje7cPHyno8BIzO1hzn8L7RXuKVasj_DidecIE1HC5kgxEdx3c=w600-h315-p-k"
 ---
-2 & ½  months at in-laws' place just went like that, my longest stay away from home. Just realised yesterday when discussing with my son that I did not even stay that long at my parent’s home. Yes it is a blessing in this difficult time.   
+2½  months at in-laws' place just went like that, my longest stay away from home. Just realised yesterday when discussing with my son that I did not even stay that long at my parent’s home. Yes it is a blessing in this difficult time.   
 
 As many of you know my MIL had a bad fall during lockdown and had to go through major operation. We could not arrange a travel pass at that time so when the opportunity came we decided to come to Durg/Bhilai around November 1st week and stay as much we can.
 

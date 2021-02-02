@@ -14,12 +14,12 @@ Our travel planning started way back in the month of January it was left to Sant
 
 | First Draft | What we end up doing            |
 |-------------|---------------------------------|
-| Guwahati    | Guwahati                        |
-| Kaziranga   | Shillong                        |
-| Gibbon      | Cherrapunji                     |
-| Majuli      | Kaziranga (bypassing  Guwahati) |
-| Nameri      | Gibbon & Sibsagar               |
-| Shillong    | Majuli                          |
+| Guwahati    | [Guwahati](/blog/2018-05-19-day-1-maa-kamakhya-here-we-come/)                       |
+| Kaziranga   | [Shillong](/blog/2018-05-21-day-2-shillong/ )                       |
+| Gibbon      | [Long Drive](/blog/2018-12-17-day-3-long-day-long-drive-crazy-one-meghalaya/) And [Cherrapunji](/blog/2018-12-17-tiring-yet-happy-day-double-decker-root-bridge/)                    |
+| Majuli      | [Kaziranga](/blog/2019-02-20-day-1-in-kaziranga-april-2018/) (bypassing  Guwahati) |
+| Nameri      | [Gibbon](/blog/2020-01-03-a-morning-at-hoollongapar-gibbon-sanctuary/) & [Sibsagar](/blog/2020-01-04-sivasagar-unexplored-ahom-kingdoms-finest/)              |
+| Shillong    | [Majuli](/blog/2020-01-20-majuli-day-1-april-2018/)                          |
 | Cherrapunji | Nameri and back to Guwahati     |
 
 It is easy to start and end with Guwahati in NorthEast as it is well connected to rest of India with many flights and trains. To explore and have a relaxing trip we almost decided to have 2 nights halt in most places. The key challenge was rain as Kaziranga closes by end of April. One friend said he would be joining us for Meghalaya part so we changed the first draft and opted to visit Meghalaya first and Assam second.  

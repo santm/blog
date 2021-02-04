@@ -7,15 +7,13 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item active">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
- 
-            {{ range .Site.Params.RightMenu }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .link | safeURL }}"><span class="text-uppercase font-weight-bold"> {{ .medium }} </span></a>
-          </li>
-          {{ end }}
+        <li class="nav-item active"><a {{ if in .Title "Aashiyana" }} class="nav-link active" {{ else }} class="nav-link" {{ end }} aria-current="page" href="/">Home</a>      </li>
+        <li class="nav-item"><a {{ if in .RelPermalink "blog" }} class="nav-link active" {{ else }} class="nav-link" {{ end }}class="nav-link"  href="/blog"><span class="text-uppercase font-weight-bold"> Blog </span></a></li>
+        <li class="nav-item"><a  {{ if in .RelPermalink "album" }} class="nav-link active" {{ else }} class="nav-link" {{ end }}class="nav-link"  href="/album"><span class="text-uppercase font-weight-bold"> Photos </span></a></li>
+        <li class="nav-item"><a  {{ if in .RelPermalink "about" }} class="nav-link active" {{ else }} class="nav-link" {{ end }}class="nav-link" href="/about"><span class="text-uppercase font-weight-bold"> About </span></a></li>
+        <li class="nav-item"><a  {{ if in .RelPermalink "contact" }} class="nav-link active" {{ else }} class="nav-link" {{ end }}class="nav-link"  href="/contact"><span class="text-uppercase font-weight-bold"> Contact </span></a></li>
+        <li class="nav-item"><a  {{ if in .RelPermalink "tag" }} class="nav-link active" {{ else }} class="nav-link" {{ end }}class="nav-link"  href="/tags"><span class="text-uppercase font-weight-bold"> Tags </span></a></li>
+          
           </ul>
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

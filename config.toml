@@ -1,7 +1,9 @@
+ignoreErrors = "error-remote-getjson"
+cloudinary_base_url = "https://res.cloudinary.com/santm"
 baseURL = "/"
 languageCode = "en-us"
 title = "Aashiyana of Pamela Santanu"
-theme = "santm-bulma_v2"
+theme = "clean-santm"
 [wordCount]
 other = "{{ .WordCount }} words"
 [params]
@@ -31,7 +33,7 @@ other = "{{ .WordCount }} words"
 
   [[params.RightMenu]]
     medium = "Blog"
-    icon = "fa fa-newspaper-o fa-2x"
+    icon = "bi bi-newspaper"
     link = "/blog"
   [[params.RightMenu]]
     medium = "Photos"

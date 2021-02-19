@@ -1,7 +1,7 @@
 <footer class="footer has-text-centered">
   <div class="row" >  
     {{ range .Site.Params.FootMenu }}
-    <a class="icon" id="icon-{{.medium}}"href="{{ .link | safeURL }}"><i class="{{ .icon }} fa-2x"></i></a>
+    <a class="icon" id="icon-{{.medium}}" href="{{ .link | safeURL }}"><i class="{{ .icon }} fa-2x"></i></a>
     {{ end }}
     <span class="icon has-tooltip" data-tooltip="Copyright 2020" id="icon-copy"> <i class="fa fa-copyright fa-2x" ></i>
     </div>

@@ -1,9 +1,10 @@
 ---
 title: "Drive Bangalore to Durg"
-date: 2021-02-22T02:02:00+05:30
+date: 2021-02-22T02:03:00+05:30
 author: "Santanu Misra"
 tags: ["Travel", "Road Trips", "car","highway"]
-featured_image : "https://lh3.googleusercontent.com/dvf5UJ0zKlHJSNagwx39LUFCr7bteNTL_5Xj-d_4rrDvyAAiU_0LFJYMgHC_vUc1dHwMyfREsi8VuY9empn5C4MirpW8OJfFgzDzzzAEaWhvgfKiDFHVmJn7Grs-W6yAfG2HCj5gnFc=w2400"
+categories : [Travel, India,Road Trip]
+featured_image : "https://lh3.googleusercontent.com/dvf5UJ0zKlHJSNagwx39LUFCr7bteNTL_5Xj-d_4rrDvyAAiU_0LFJYMgHC_vUc1dHwMyfREsi8VuY9empn5C4MirpW8OJfFgzDzzzAEaWhvgfKiDFHVmJn7Grs-W6yAfG2HCj5gnFc"
 ---
 
 This is the longest drive we did so far and truly this was a memorable one with **1300+ KM**. The planning for the trip started almost a month back.  It involved looking at [Google maps](https://www.google.com/maps/dir/Hebbal,+Bengaluru,+Karnataka/Durg,+Chhattisgarh/@17.0724401,75.0033742,6z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x3bae17a295d80a47:0x1a3ccbf328b14759!2m2!1d77.5987874!2d13.0353557!1m5!1m1!1s0x3a29231ae815e213:0xbf7f1c7892db4907!2m2!1d81.2849169!2d21.1904494!3e0) multiple times and talking to few friends who are roadies.  We knew the road till Hyderabad would be good as we been on this highway almost 2 years back. Beyond Hyderabad was a complete unknown. Also posted my naïve query to [TEAM-BHP](https://www.team-bhp.com/forum/route-travel-queries/20778-bangalore-nagpur-route-queries-8.html#post4912068). With all that input I was fairly confident to take up the road trip of unknown.  
@@ -26,7 +27,7 @@ was really shocked to see the city of biryani was closed early due to COVID and 
 After a good night sleep, we got prepared quickly and headed for breakfast. Before that I cleaned the car once again with newly acquired Jopasu car Duster. It really worked as advertised. The breakfast spread was really elaborate and we had a scrumptious breakfast and headed out. By 8:30 we left hotel. As we stayed within city we had to drive north through the city which is shorter but has to many traffic signals. Still being morning we headed out of Hyderabad smoothly. For some unknown reason Google Maps suggested to take a different road bypassing Nagpur but we sticked with known major highway. We passed Nirmal and many other towns and soon entered Maharashtra from Telengana.  
 
 We reached Nagpur outskirts by 3:30PM with 2 small break. We had planned to stop at Radisson blu Nagpur that costed us a good 2+ hours. It was a pleasant break from driving, we had late lunch or early dinner there and by the time we left outskirts of Nagpur, it was dark. We knew the distance was not much left there but we were not to sure on the road condition. What we found on this major EAST-WEST highway connecting Calcutta & Mumbai was many road constructions. It was getting little tiring but the final distance was getting shorter. Soon it was only 150KM .... then only 100KM to go.  And with that we crossed Rajnandgaon from there it was only 40KM to reach home. At 10:00PM we reached home. 
-{{< figure src="https://lh3.googleusercontent.com/7LViQM_X3thkDkxGSjPXLKXOs-eBw0MbWPcMyTT_N9NkYQGJsb58ikMVK0VFftRHbTBMEVl83NEiuDnlQlj1DWoQIWU54hEJhoa6ft1wer0bFJA7UFRfZYMcSAlwYDv1cEio3rVg07o=w300" title="Final Odometer Reading" class="">}}
+{{< figure src="https://lh3.googleusercontent.com/7LViQM_X3thkDkxGSjPXLKXOs-eBw0MbWPcMyTT_N9NkYQGJsb58ikMVK0VFftRHbTBMEVl83NEiuDnlQlj1DWoQIWU54hEJhoa6ft1wer0bFJA7UFRfZYMcSAlwYDv1cEio3rVg07o=w300" caption="Final Odometer Reading" class="image_left">}}
 
 Please check the video we made along the way, very ameteurish.  
 

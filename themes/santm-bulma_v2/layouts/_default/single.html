@@ -50,6 +50,38 @@
     </p>
   </div>
 </div>
+{{ $related := shuffle (.Site.RegularPages.Related . | first 4 ) }}
+
+{{ with $related }}
+<div class="container">
+  <nav class="panel">
+    <p class="panel-heading has-text-centered">Related Posts</p>
+  </nav>
+
+  <div class="tile is-ancestor">
+    {{ range . }}
+    <div class="tile is-3 is-parent">
+      <article class="tile is-child box">
+        <div class="content has-text-centered">
+          <figure class="image">
+    {{ if isset .Params "featured_image" }}   
+    <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;"></a>
+    {{ else }}
+     <img style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;" src="/images/logo192.JPG" alt="LOGO">
+    {{ end }}
+          </figure>
+          <p class="title has-text-centered">
+            <a href="{{ .Permalink }}">{{ .Title | truncate 15 }} </a>
+          </p>
+          
+        </div>
+        
+      </article>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
 </main>
 {{ end }}
 {{ define "footer" }}

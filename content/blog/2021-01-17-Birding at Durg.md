@@ -16,7 +16,7 @@ With a good reliable internet connection,wife and son continued their online sch
 
 This trip is most memorable for me as an amateur birder ; went out for bird photography a few times a week.  Thanks to social media with few phone calls I was connected with very experienced photographers who knew the Bhilai-Durg area very well. They really took me under their wings and we had lots of fun. I learned a lot from them. As most of our trips started at the wee hours, we watched beautiful sunrises. On our long trips, they used to ensure home cooked breakfast.
 
-{{< figure src="https://lh3.googleusercontent.com/5NEw2NeSgT4hR0Jw7Vkgymxgz7zvxxLtAjMg8KXC56TBlVfiFo4x7H6GlTwF__GQ6xh4OEDcYWxy1MAH216THd7F19VFs-3wLnXKDvSUxOkUkMgzUY9iBhiGfLzLFaiHZCcj7E-1B2Y=w2400" caption="The Birding Group" class="image_left">}}Also met a few birders from Raipur but only once as after all Durg Raipur is not that near and as there are many options to explore around Durg itself. 
+{{< figure src="https://lh3.googleusercontent.com/5NEw2NeSgT4hR0Jw7Vkgymxgz7zvxxLtAjMg8KXC56TBlVfiFo4x7H6GlTwF__GQ6xh4OEDcYWxy1MAH216THd7F19VFs-3wLnXKDvSUxOkUkMgzUY9iBhiGfLzLFaiHZCcj7E-1B2Y=w300" caption="The Birding Group" class="image_left">}}Also met a few birders from Raipur but only once as after all Durg Raipur is not that near and as there are many options to explore around Durg itself. 
 
 Meet up with a few college friends who are staying around Durg.
 

@@ -3,6 +3,7 @@ title: "Chamleon"
 date: 2020-04-01T11:35:30+05:30
 author: "Aarush Misra"
 tags: ["Chamleon","poem", "Aarush"]
+categories: [Poem]
 featured_image: "/images/featured/chameleon.jpg"
 ---
 #### 2020 February 22nd @ Bangalore ####  

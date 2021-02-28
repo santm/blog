@@ -3,6 +3,7 @@ title: "Bats"
 date: 2020-04-01T11:34:45+05:30
 author: "Aarush Misra"
 tags: ["bats","poem", "covid", "corona virus", "covid 19", "Aarush"]
+categories: [Poem]
 featured_image: "/images/featured/bats.jpg"
 ---
 

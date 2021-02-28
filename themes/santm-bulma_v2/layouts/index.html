@@ -32,8 +32,8 @@
       </div>
     </div> <!-- hero foot-->
   </section>
-  <section class="section has-background-white" id="instagram">
-    <div class=" container is-fullhd">
+  <section class="section has-background-black" id="instagram">
+    <!-- <div class=" container is-fullhd"> -->
       <div class="columns is-multiline is-mobile is-gapless">
         <div class="column is-one-third">
           <div class="card">
@@ -182,7 +182,7 @@
         </div>
       </div>
     </div>
-    </div>
+    <!-- </div> --> <!-- end of container -->
   </section>
   <section class="section has-background-white">
     <div class="container">
@@ -193,7 +193,7 @@
             <div class="content has-text-centered">
               <figure class="image">
 			  {{ if isset .Params "featured_image" }}   
-                <img src="{{ .Params.featured_image }}" style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;">
+        <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;"></a>
 				{{ else }}
 				 <img style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;" src="/images/logo192.JPG" alt="LOGO">
 				{{ end }}

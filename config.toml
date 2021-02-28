@@ -2,12 +2,12 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Aashiyana of Pamela Santanu"
 theme = "santm-bulma_v2"
+enableEmoji = true
 [wordCount]
 other = "{{ .WordCount }} words"
 [params]
   author = "Santanu Misra"
   description = "Rumblings on life, travel or anything under sun"
-
   [[params.FootMenu]]
     medium = "rss"
     icon = "fa fa-rss-square"
@@ -58,3 +58,10 @@ other = "{{ .WordCount }} words"
     post = "/posts/:year/:month/:slug/"
     year = "/posts/:slug/"
     month = "/posts/:slug/"
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = "categories"
+  weight = 100

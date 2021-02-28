@@ -4,6 +4,7 @@ slug : "2018-05-18-north-east-2018-planning"
 published : 2018-05-18T18:34:00.002000+05:30
 author :  "Pamela Bhattacharya"
 tags : [ "north east", "assam", "travel plan", "meghalaya", "road trip",]
+categories: [Travel, India, Meghalaya,Assam]
 featured_image : "/images/featured/Northeast_india.png"
 ---
 > Long prologue … someone once said...  

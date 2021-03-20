@@ -14,10 +14,10 @@ We went for a morning stroll along the stream that is just in front of Deka Chen
 
 We saw a board for **Ananda** and straight went there to enquire about availability. And lucky for us they had one room free and we booked the same.
 
-After booking room for the night we started our Satras exploration. We have a long list of Satras to cover. The mix included both 
+After booking room for the night we started our Satras exploration. We have a long list of Satras to cover.   
 
 * **Shamaguri Satra**
-* **Kamalabari Satra** 
+* **Kamalabari Satra**  
 * **Auniati Satra**
 * **Garamurh Satra**
 
@@ -37,7 +37,9 @@ After booking room for the night we started our Satras exploration. We have a lo
 
 **Samaguri Satra** - A small satra famous worldwide for it's Mask-making tradition. Hemchandra Goswami is an award-winning craftsman who is responsible for developing this craft in recent times. The entire family practices this craft and we were very lucky to sit down with him and he explained the complete mask making process to us.
 
-**Uttar Kamlabari Satra** - our last satra on the list. By this time, we were little bored with satras. In between we stopped for sunset point and bought some handmade stuff from **Rengam Women Co-operative**.
+**Uttar Kamlabari Satra** - our last satra on the list. By this time, we were little bored with satras. 
+
+In between we stopped for sunset point and bought some handmade stuff from **Rengam Women Co-operative**.
 
 {{< figure src="https://lh3.googleusercontent.com/PbtKJd2OvIjT9jKYKdoXTvM6qWvR1sdzLHV_U4pTrvD6tAQCTGUeV8z4Hcc3l4ys7gfsjJ8VI1K5JXEByt8itl-YagtjiEMqtowIzzdDnrhN3ooxnhSCx8O9PIROXsCispx_7043lck=w300" caption="Mising Food" link="https://lh3.googleusercontent.com/PbtKJd2OvIjT9jKYKdoXTvM6qWvR1sdzLHV_U4pTrvD6tAQCTGUeV8z4Hcc3l4ys7gfsjJ8VI1K5JXEByt8itl-YagtjiEMqtowIzzdDnrhN3ooxnhSCx8O9PIROXsCispx_7043lck" class="image_left">}}  
 In the evening we moved out luggage from Deka Cheng to [**La Maison De Ananda**](https://www.tripadvisor.in/Hotel_Review-g1207703-d2444807-Reviews-La_Maison_de_Ananda-Majuli_Jorhat_District_Assam.html), as the name suggest it has a French connection as one of the founding owner is French and main brain behind these eco-friendly home-stay.  

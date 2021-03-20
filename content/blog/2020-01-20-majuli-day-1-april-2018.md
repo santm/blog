@@ -23,7 +23,7 @@ Majuli welcomes us with its rustic beauty. There are only a few major roads that
 
 Our stay was at **Deka Chang**, the place is supposed to be one of the best ones in Majuli. It even gets featured in the *Priyanka Chopra’s promo video of Assam tourism*. We got ourselves a very big room which was not needed. But it was due to the fact some government official was staying while he was on official vacation. This stay of the official caused us very poor service. And we were disappointed and cursing ourselves for choosing this property.  
 
-In the evening we visited the nearby temple (Satra). This Satra is very special as it runs by family members. It is called **Garamur Satra**. **Satras** are **Vaishnav temple** and they are very special to <span class="underline">Assam’s history and culture</span>. Just to highlight few facts about Majuli  
+In the evening we visited the nearby temple (Satra). It is called **Garamur Satra**. This Satra is very special one as it is one of the prominent satra run by family members.  **Satras** are **Vaishnav temple** and they are very special to <span class="underline">Assam’s history and culture</span>. Just to highlight few facts about Majuli  
 
 - The first newspaper of Assam was published here.  
 - Sankaradeva established the first Satra here.  

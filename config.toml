@@ -35,9 +35,13 @@ other = "{{ .WordCount }} words"
     icon = "far fa-newspaper fa-2x"
     link = "/blog"
   [[params.RightMenu]]
-    medium = "Photos"
+    medium = "Birds & Wildlife"
+    icon = "fa fa-paw fa-2x"
+    link = "/bird-wildlife"
+  [[params.RightMenu]]
+    medium = "Travel Picture"
     icon = "fa fa-camera-retro fa-2x"
-    link = "/album"
+    link = "/album"  
   [[params.RightMenu]]
     medium = "About"
     icon = "fa fa-user fa-2x"

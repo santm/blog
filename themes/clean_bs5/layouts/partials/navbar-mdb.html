@@ -1,0 +1,50 @@
+<!-- Navbar -->
+<!--working kind --><nav class="navbar fixed-top navbar-expand-lg d-lg-block navbar-dark scrolling-navbar"> 
+<!-- does not work <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;"> -->
+  <div class="container-fluid">
+
+    <!-- Brand -->
+    <a class="navbar-brand" href="/"><figure class="figure"><img class="rounded-circle" src="/images/logo192.JPG" alt="HomePage" style="padding:15px" width="100" height="100"></figure></a>
+
+    <!-- Collapse -->
+    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" 
+    aria-label="Toggle navigation">
+    <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Left -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {{ range .Site.Params.RightMenu }}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i>
+              &nbsp; <span class="text-uppercase fw-bold "> {{ .medium }} </span></a>
+        </li>
+        {{ end }}
+      </ul>
+
+      <!-- Right -->
+           <!-- Search form -->
+           <form class="d-flex input-group w-auto">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Type query"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-light"
+              type="button"
+              data-mdb-ripple-color="dark"
+            >
+              Search
+            </button>
+          </form>
+    </div><!-- Collapsible wrapper -->
+
+  </div><!-- Container wrapper -->
+</nav>
+<!-- Navbar -->

@@ -17,18 +17,18 @@
 	</p>
 	</div>
 	<!-- new way-->
-	{{ $url := "travel_album.json" }}
-	{{ $gistJ := getJSON $url}}
+	{{ $url := "list_album_travel.txt" }}
+	{{ $sep := "," }}
 	<div class="blog-post section has-text-justified" itemprop="articleBody">
 	<p>
 	<div class="columns is-gapless is-multiline is-centered is-vcentered">
-		{{ range $gistJ }}
+		{{ range $i, $r := getCSV $sep $url }}
 		<div class="column">
 			<div class="box" style="width: 168px;">
 				<figure class="image image is-128x128">
-					<a href="{{ .link}}"> <img src="{{ .image_src }}" alt="{{ .title }}" title="{{ .title }}" /> </a>
+					<a href="{{ index $r 0 }}"> <img src="{{ index $r 1 }}" alt="{{ index $r 2 }}" title="{{ index $r 2 }}" /> </a>
 				</figure>
-			<p class="title is-6 has-text-centered">{{ .title }}</p>
+			<p class="title is-6 has-text-centered">{{ index $r 2 }}</p>
 		</div>
 	</div><!-- end of col -->
 		  {{ end }}

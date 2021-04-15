@@ -1,0 +1,23 @@
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><figure class="figure"><img class="rounded-circle" src="/images/logo192.JPG" alt="HomePage" style="padding:15px" width="100" height="100"></figure></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarColor01" style="">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            {{ range .Site.Params.RightMenu }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i>
+                &nbsp; <span class="text-uppercase fw-bold "> {{ .medium }} </span></a>
+          </li>
+          {{ end }}
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>

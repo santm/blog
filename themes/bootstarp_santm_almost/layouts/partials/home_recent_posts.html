@@ -1,0 +1,6 @@
+{{ $listSize := .Site.Params.HomeRecentPosts.ListSize | default 10 }}
+{{ $defaultTruncateSize := .Site.Params.HomeRecentPosts.TruncateSize |default 30 }}
+{{ $cjkTruncateSize := .Site.Params.HomeRecentPosts.CjkTruncateSize | default $defaultTruncateSize }}
+{{ $posts := first $listSize .Site.RegularPages }}
+
+{{ partial "recent_posts.html" (dict "posts" $posts "defaultTruncateSize" $defaultTruncateSize "cjkTruncateSize" $cjkTruncateSize) }}

@@ -1,5 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
+ignoreErrors = ["error-remote-getjson"]
 title = "Aashiyana of Pamela Santanu"
 theme = "santm-bulma_v2"
 enableEmoji = true
@@ -31,7 +32,7 @@ other = "{{ .WordCount }} words"
 
   [[params.RightMenu]]
     medium = "Blog"
-    icon = "fa fa-newspaper-o fa-2x"
+    icon = "far fa-newspaper fa-2x"
     link = "/blog"
   [[params.RightMenu]]
     medium = "Photos"

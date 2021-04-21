@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
-<!-- <link rel="stylesheet" href="/css/debug.css"> -->
-{{- partial "head.html" . -}}
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+    <head>
+        {{- partial "head_meta" . -}} 
+        {{- partial "head_css" . -}} 
+        {{- partial "head.html" . -}}
+  </head>
 <body class="layout-default">
   <section class="hero is-dark is-fullheight image-box" style="--image-url: url(https://source.unsplash.com/user/santm/1920x1080/daily?q=50)">
     <!--  <section class="hero is-dark is-fullheight"> -->

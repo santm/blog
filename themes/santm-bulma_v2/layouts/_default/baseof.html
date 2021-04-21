@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-    {{- partial "head.html" . -}}
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
+    <head>
+        {{- partial "head_meta" . -}} 
+        {{- partial "head_css" . -}} 
+        {{- partial "head.html" . -}}
+    </head>
     <body class="layout-default">  <!-- Blocks may include default content. -->
         
         <!-- Above this line  Code of  your templates will share across , like a header -->

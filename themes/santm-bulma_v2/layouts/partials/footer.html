@@ -1,15 +1,7 @@
 <footer class="footer has-text-centered">
-  <div class="row" >  
-    {{ range .Site.Params.FootMenu }}
-    <a class="icon" id="icon-{{.medium}}" href="{{ .link | safeURL }}"><i class="{{ .icon }} fa-2x"></i></a>
-    {{ end }}
-    <span class="icon has-tooltip" data-tooltip="Copyright 2020" id="icon-copy"> <i class="fa fa-copyright fa-2x" ></i>
-    </div>
-    <div class="row has-text-centered">
-      Powered by <a href="https://bulma.io">Bulma</a> & <a href="https://gohugo.io">Hugo</a> - Hosted with<a class="icon" href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a> 
-    </div>
-    <div class="row has-text-centered">
-  All views expressed are personal. Made with <span class="has-text-danger"><i class="fa fa-heart"></i></span> and plenty of <i class="fa fa-coffee" style="color:#6F4E37;"></i></span>
+  <div class="row has-text-centered">{{ range .Site.Params.FootMenu }}<a class="icon" id="icon-{{.medium}}" href="{{ .link | safeURL }}"><i class="{{ .icon }} fa-lg"></i></a>{{ end }}</div>
+  <div class="row has-text-centered">Powered by <a href="https://bulma.io">Bulma</a> & <a href="https://gohugo.io">Hugo</a> - Hosted with<a class="icon" href="https://www.github.com"><i class="fa fa-github fa-2x"></i></a></div>
+  <div class="row has-text-centered">All views expressed are personal. Made with <span class="has-text-danger"><i class="fa fa-heart"></i></span> and plenty of <i class="fa fa-coffee" style="color:#6F4E37;"></i></span>
 </div>
 </footer>
 <script>

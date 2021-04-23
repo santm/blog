@@ -193,45 +193,37 @@
     </div>
     <!-- </div> --> <!-- end of container -->
   </section>
-  <section class="section has-background-white">
-    <div class="container">
-      <div class="tile is-ancestor">
+  <section class="section has-background-white" id="latest_post">
+    <div class='container is-mobile has-text-centered'>
+      <div class='columns is-multiline is-mobile is-gapless'>
         {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
-        <div class="card">
-          <div class='card-header'>
-            <div class="card-header-title">
-              <a href="{{ .Permalink }}">{{ .Title }} </a>
-            </div>
-          </div>
-          <div class="card-image">
-            <figure class="image is-2by1">
-              {{ if isset .Params "featured_image" }}   
-              <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" style="margin: 2px; padding: 2px; object-fit: cover;"></a>
-                      {{ else }}
-                       <img style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;" src="/images/logo192.JPG" alt="LOGO">
-                      {{ end }}
-              </figure>
-          </div>
-          <div class="card-content">
-            <div class='content'>
-              <div class="media-content">
-                <p class='is-success'>
-                  {{ .Summary }}
-                </p>
-              </div>
-            </div>
-            <footer class="card-footer">
-              <p class="card-footer-item has-text-weight-light">{{ .PublishDate.Format "January 2, 2006" }}</p>
-              <p class='card-footer-item'>
-                <span class='has-text-info'>
-                  <a class="button has-background-grey-lighter has-text-centered" href="{{ .RelPermalink }}" role="button">
-                    <nobr>Read more →</nobr>
-                  </a>
-                </span>
-              </p>
-            </footer>
-          </div>
-        </div>
+        <div class='column is-one-fourth'>
+            <div class="card">
+              <div class='card-header'>
+                <div class="card-header-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+              </div> <!-- card header-->
+              <div class="card-image">
+                <figure class="image is-2by1">
+                  {{ if isset .Params "featured_image" }}   
+                  <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}"></a>
+                          {{ else }}
+                           <img style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;" src="/images/logo192.JPG" alt="LOGO">
+                          {{ end }}
+                  </figure>
+              </div><!--card-image-->
+              <div class="card-content">
+                <div class='content'>
+                  <div class="media-content"><p class='is-success'>{{ .Summary }}</p></div>
+                </div><!--content-->
+                <footer class="card-footer">
+                  <p class="card-footer-item has-text-weight-light">{{ .PublishDate.Format "January 2, 2006" }}</p>
+                  <p class='card-footer-item'>
+                    <span class='has-text-info'><a class="button has-background-grey-lighter has-text-centered" href="{{ .RelPermalink }}" role="button"><nobr>Read more →</nobr></a></span>
+                  </p>
+                </footer>
+              </div><!--card-content-->
+            </div><!--card-->
+          </div><!-- colmun-->
         {{ end }}
       </div>
     </div>

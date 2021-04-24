@@ -8,7 +8,7 @@
 .hero {
 	background: black url(https://source.unsplash.com/user/santm/1920x1080/daily?q=50) center / cover;
 }
-@media (orientation: portrait) { .hero { background: black url(https://source.unsplash.com/bYSHPhHdTzI/) center / cover; } }
+@media (orientation: portrait) { .hero { background: black url(https://source.unsplash.com/bYSHPhHdTzI/?q=25) center / cover; } }
         </style>
   </head>
 <body class="layout-default">
@@ -41,160 +41,35 @@
       </div>
     </div> <!-- hero foot-->
   </section>
-  <section class="section has-background-black" id="instagram">
+  <section class="section" id="instagram">
     <!-- <div class=" container is-fullhd"> -->
+      </section>
+      {{ $url := "santm_insta_final.json" }}
+	    {{ $gistJ := getJSON $url}}
       <div class="columns is-multiline is-mobile is-gapless">
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1"><a href=https://www.instagram.com/p/B7k9c5xFJlY/ target=_blank>
-                <picture>
-                  <img
-                  sizes="(max-width: 320px) 100vw, 320px"
-                  srcset="/images/birds/B7k9c5xFJlY_wk0wqt_c_scale,w_200.jpg 200w,
-                  /images/birds/B7k9c5xFJlY_wk0wqt_c_scale,w_320.jpg 320w"
-                  src="/images/birds/B7k9c5xFJlY_wk0wqt_c_scale,w_320.jpg"
-                  alt="White Bellied Blue Flycatcher (Female)" title="White Bellied Blue Flycatcher (Female)">
-                  </picture>
-              </a></figure>
+        
+          {{ range $gistJ }}
+          <div class="column is-one-third">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-1by1"><a href={{ .link }} target=_blank>
+                  <picture>
+                     <img 
+                     sizes="(max-width: 320px) 100vw, 320px"
+                     srcset="/images/insta/{{ .img_src}}_200.jpg 200w,
+                     /images/insta/{{ .img_src}}_320.jpg 320w"
+                    src="/images/insta/{{ .img_src}}_320.jpg"
+                     alt="{{ .title }}" title="{{ .title }}">
+                  </picture></a>
+                </figure>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1"><a href=https://www.instagram.com/p/B7ig1PnlnrF/ target=_blank>
-                <picture>
-                  <img
-                  sizes="(max-width: 320px) 100vw, 320px"
-                  srcset="/images/birds/B7ig1PnlnrF_rwnm2l_c_scale,w_200.jpg 200w,
-                  /images/birds/B7ig1PnlnrF_rwnm2l_c_scale,w_320.jpg 320w"
-                  src="/images/birds/B7ig1PnlnrF_rwnm2l_c_scale,w_320.jpg"
-                  alt="Blue-capped Rock-Thrush (Female)" title="Blue-capped Rock-Thrush (Female)">
-                  </picture>
-                  </a>
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1"><a href=https://www.instagram.com/p/B7a3u4dFt0U/ target=_blank>
-                <picture>
-                  <img
-                  sizes="(max-width: 320px) 100vw, 320px"
-                  srcset="/images/birds/B7a3u4dFt0U_v1vsxn_c_scale,w_200.jpg 200w,
-                  /images/birds//B7a3u4dFt0U_v1vsxn_c_scale,w_320.jpg 320w"
-                  src="/images/birds/B7a3u4dFt0U_v1vsxn_c_scale,w_320.jpg"
-                  alt="Asian Paradise Flycatcher(Male)" title="Asian Paradise Flycatcher(Male)">
-                  </picture>
-                 </a>
-              </figure>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-one-third">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-1by1"><a href=https://www.instagram.com/p/B7YGjdLl7Qz/ target=_blank>
-                <picture>
-                  <img
-                  sizes="(max-width: 320px) 100vw, 320px"
-                  srcset="/images/birds/B7YGjdLl7Qz_dxzau7_c_scale,w_200.jpg 200w,
-                  /images/birds/B7YGjdLl7Qz_dxzau7_c_scale,w_320.jpg 320w"
-                  src="/images/birds/B7YGjdLl7Qz_dxzau7_c_scale,w_320.jpg"
-                  alt="Orange Headed Thrush" title="Orange Headed Thrush">
-                  </picture>
-                </a></figure>
-            </div>
-          </div>
-        </div>
-<div class="column is-one-third"><div class="card"><div class="card-image"><figure class="image is-1by1"><a href=https://www.instagram.com/p/B7VRUN0l1EP/ target=_blank>
-  <picture>
-    <img
-    sizes="(max-width: 320px) 100vw, 320px"
-    srcset="/images/birds/B7VRUN0l1EP_jh17me_c_scale,w_200.jpg 200w,
-    /images/birds/B7VRUN0l1EP_jh17me_c_scale,w_320.jpg 320w"
-    src="/images/birds/B7VRUN0l1EP_jh17me_c_scale,w_320.jpg"
-    alt="Blue-Capped Rock Thrush" title="Blue-Capped Rock Thrush">
-    </picture>
-  </a></figure>
-</div></div></div>
-
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-1by1"><a href=https://www.instagram.com/p/CAxgDPUl7VK/ target=_blank>
-              <picture>
-                <img
-                sizes="(max-width: 320px) 100vw, 320px"
-                srcset="/images/birds/CAxgDPUl7VK_kzarus_c_scale,w_200.jpg 200w,
-                /images/birds/CAxgDPUl7VK_kzarus_c_scale,w_320.jpg 320w"
-                src="/images/birds/CAxgDPUl7VK_kzarus_c_scale,w_320.jpg"
-                alt="Black naped Monarch" title="Black naped Monarch">
-                </picture>
-            </a></figure>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-1by1"><a href=https://www.instagram.com/p/B7qt_5GF-AY/ target=_blank>
-              <picture>
-                <img
-                sizes="(max-width: 320px) 100vw, 320px"
-                srcset="/images/birds/B7qt_5GF-AY_rsdpzm_c_scale,w_200.jpg 200w,
-                /images/birds/B7qt_5GF-AY_rsdpzm_c_scale,w_320.jpg 320w"
-                src="/images/birds/B7qt_5GF-AY_rsdpzm_c_scale,w_320.jpg"
-                alt="Puff Throated Babbler" title="Puff Throated Babbler">
-                </picture>
-              </a></figure>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-1by1"><a href=https://www.instagram.com/p/CAxiAn5l7-B/ target=_blank>
-              <picture>
-                <img
-                sizes="(max-width: 320px) 100vw, 320px"
-                srcset="/images/birds/CAxiAn5l7-B_urablc_c_scale,w_200.jpg 200w,
-                /images/birds/CAxiAn5l7-B_urablc_c_scale,w_320.jpg 320w"
-                src="/images/birds/CAxiAn5l7-B_urablc_c_scale,w_320.jpg"
-                alt="White Rumped Shama" title="White Rumped Shama">
-                </picture>
-            </a></figure>
-          </div>
-        </div>
-      </div>
-
-      <div class="column is-one-third">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-1by1"><a href=https://www.instagram.com/p/B52oXNdFWim/ target=_blank>
-              <picture>
-                <img
-                sizes="(max-width: 320px) 100vw, 320px"
-                srcset="/images/birds/B52oXNdFWim_ixu4f1_c_scale,w_200.jpg 200w,
-                /images/birds/B52oXNdFWim_ixu4f1_c_scale,w_320.jpg 320w"
-                src="/images/birds/B52oXNdFWim_ixu4f1_c_scale,w_320.jpg"
-                alt="Jerdon’s Nightjar" title="Jerdon’s Nightjar">
-                </picture>
-               </a></figure>
-          </div>
-        </div>
-      </div>
+          {{ end }}
     </div>
     <!-- </div> --> <!-- end of container -->
   </section>
   <section class="section has-background-white" id="latest_post">
-    <div class='container is-mobile has-text-centered'>
       <div class='columns is-multiline is-mobile is-gapless'>
         {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
         <div class='column is-one-fourth'>
@@ -212,7 +87,7 @@
                   </figure>
               </div><!--card-image-->
               <div class="card-content">
-                <div class='content'>
+                <div class='content has-text-justified'>
                   <div class="media-content"><p class='is-success'>{{ .Summary }}</p></div>
                 </div><!--content-->
                 <footer class="card-footer">

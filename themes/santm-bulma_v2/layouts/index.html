@@ -6,9 +6,9 @@
         {{- partial "head.html" . -}} 
         <style>
 .hero {
-	background: black url(https://source.unsplash.com/user/santm/1920x1080/daily?q=50) center / cover;
+	background: black url(https://source.unsplash.com/user/santm/1920x1080/daily?q=25) center / cover;
 }
-@media (orientation: portrait) { .hero { background: black url(https://source.unsplash.com/bYSHPhHdTzI/?q=25) center / cover; } }
+@media (orientation: portrait) { .hero { background: black url(https://lh3.googleusercontent.com/3X86VDI4hYiqN1DmYgiqr8Ie8iQL2zeDUkqq18L1raRHZqDSux0xS9sv4mH_Ra47poCVwPoER-iKp6pJ8pjJ5gvXhv_GwfNE0z-owjBnacjEbsFe1rdtv77SRjZlGWhgGhSWugaH0Uk=w1024) center / cover; } }
         </style>
   </head>
 <body class="layout-default">
@@ -42,20 +42,17 @@
     </div> <!-- hero foot-->
   </section>
   <section class="section" id="instagram">
-    <!-- <div class=" container is-fullhd"> -->
-      </section>
+    <div class="container">
       {{ $url := "santm_insta_final.json" }}
 	    {{ $gistJ := getJSON $url}}
       <div class="columns is-multiline is-mobile is-gapless">
-        
-          {{ range $gistJ }}
+         {{ range $gistJ }}
           <div class="column is-one-third">
             <div class="card">
               <div class="card-image">
                 <figure class="image is-1by1"><a href={{ .link }} target=_blank>
                   <picture>
-                     <img 
-                     sizes="(max-width: 320px) 100vw, 320px"
+                     <img sizes="(max-width: 320px) 100vw, 320px"
                      srcset="/images/insta/{{ .img_src}}_200.jpg 200w,
                      /images/insta/{{ .img_src}}_320.jpg 320w"
                     src="/images/insta/{{ .img_src}}_320.jpg"
@@ -67,10 +64,12 @@
           </div>
           {{ end }}
     </div>
-    <!-- </div> --> <!-- end of container -->
+  </div>
   </section>
-  <section class="section">
-    <div class="venue-showcase">
+
+  <section class="bd-index-section" style="--bd-section-h: 229deg;">
+
+    <div class="container">
       <div class="columns is-multiline">
         {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
         <div class="column is-12-mobile is-6-tablet is-3-desktop">

@@ -53,34 +53,41 @@
 {{ $related := shuffle (.Site.RegularPages.Related . | first 4 ) }}
 
 {{ with $related }}
-<div class="container">
-  <nav class="panel">
-    <p class="panel-heading has-text-centered">Related Posts</p>
-  </nav>
+<section class="bd-index-section" style="--bd-section-h: 229deg;">
+  <div class="container">
+    <div class="columns is-multiline">
 
-  <div class="tile is-ancestor">
     {{ range . }}
-    <div class="tile is-3 is-parent">
-      <article class="tile is-child box">
-        <div class="content has-text-centered">
+    <div class="column is-12-mobile is-6-tablet is-3-desktop">
+      <div class="card is-slightly-rounded">
+        <div class='card-header'>
+          <div class="card-header-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+        </div> <!-- card header-->
+        <div class="card-image">
           <figure class="image">
-    {{ if isset .Params "featured_image" }}   
-    <a href="{{ .Permalink }}"><img src="{{ .Params.featured_image }}" style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;"></a>
-    {{ else }}
-     <img style="height: 140px; width: 140px; border-radius: 50%; object-fit: cover;" src="/images/logo192.JPG" alt="LOGO">
-    {{ end }}
+            <a href="{{ .Permalink }}">
+              <img src="{{ .Params.featured_image }}" alt="{{ .Title }}" class="is-slightly-rounded" />
+            </a>
           </figure>
-          <p class="title has-text-centered">
-            <a href="{{ .Permalink }}">{{ .Title | truncate 15 }} </a>
-          </p>
-          
         </div>
-        
-      </article>
-    </div>
+        <div class="card-content">
+          <div class="content has-text-justified">
+            <p class="is-size-7">{{ .Summary }}</p>
+          </div>
+          <footer class="card-footer">
+            <p class="card-footer-item has-text-weight-light">{{ .PublishDate.Format "January 2, 2006" }}</p>
+            <p class='card-footer-item'>
+              <span class='has-text-info'><a class="button has-background-grey-lighter has-text-centered" href="{{ .RelPermalink }}" role="button"><nobr>Read more →</nobr></a></span>
+            </p>
+          </footer>
+        </div>
+      </div>
+    </div>   
     {{ end }}
+  
   </div>
 </div>
+</section>
 {{ end }}
 </main>
 {{ end }}

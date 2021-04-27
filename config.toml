@@ -1,65 +1,59 @@
 baseURL = "/"
+title = "Aashiyana of Pamela Santanu"
+og_image = "/images/logo192.jpg"
+
 languageCode = "en-us"
-ignoreErrors = ["error-remote-getjson"]
-theme = "santm-bulma_v2"
+DefaultContentLanguage = "en"
+paginate = 12
+
 enableEmoji = true
-[wordCount]
-other = "{{ .WordCount }} words"
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
 
-[languages]
-  [languages.en]
-    title = "Aashiyana of Pamela Santanu"
+ignoreErrors = ["error-remote-getjson"]
 
+theme = "santm-bulma_v2"
 
 [params]
   author = "Santanu Misra"
-  description = "Rumblings on life, travel or anything under sun"
-  
-  [[params.FootMenu]]
-    medium = "rss"
-    icon = "fas fa-rss"
-    link = "/index.xml"
-  [[params.FootMenu]]
-    medium = "facebook"
-    icon = "fab fa-facebook"
-    link = "https://www.facebook.com/santm"
-  [[params.FootMenu]]
-    medium = "instagram"
-    icon = "fab fa-instagram"
-    link = "https://www.instagram.com/s.a.n.t.m/"
-  [[params.FootMenu]]
-    medium = "linkedin"
-    icon = "fab fa-linkedin-in"
-    link = "https://www.linkedin.com/in/santm/"
-  [[params.FootMenu]]
-    medium = "tumblr"
-    icon = "fab fa-tumblr"
-    link = "https://pamelascreation.tumblr.com/"
-
+  description = "Rumblings on life, travel, photography, wildlife, running, baking, cooking  or anything under sun"
+  github = "https://github.com/santm"
+  sitename = "Aashiyana of Pamela Santanu"
+  ogimage = "/images/logo192.jpg"
   [[params.RightMenu]]
     medium = "Blog"
-    icon = "far fa-newspaper "
+    icon = "far fa-newspaper fa-2x"
     link = "/blog"
   [[params.RightMenu]]
     medium = "Birds & Wildlife"
-    icon = "fa fa-paw "
+    icon = "fa fa-paw fa-2x"
     link = "/bird-wildlife"
   [[params.RightMenu]]
     medium = "Travel Picture"
-    icon = "fa fa-camera-retro "
+    icon = "fa fa-camera-retro fa-2x"
     link = "/album"  
   [[params.RightMenu]]
     medium = "About"
-    icon = "fa fa-user "
+    icon = "fa fa-user fa-2x"
     link = "/about"
   [[params.RightMenu]]
     medium = "Contact"
-    icon = "fa fa-id-card "
+    icon = "fa fa-id-card fa-2x"
     link = "/contact"
   [[params.RightMenu]]
     medium = "Tags"
-    icon = "fa fa-tags "
+    icon = "fa fa-tags fa-2x"
     link = "/tags"
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
+
+[wordCount]
+other = "{{ .WordCount }} words"
+
 [taxonomies]
     year = "year"
     month = "month"
@@ -75,4 +69,4 @@ other = "{{ .WordCount }} words"
   toLower = false
 [[related.indices]]
   name = "categories"
-  weight = 100
+  weight = 100 

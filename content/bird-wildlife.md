@@ -2,6 +2,7 @@
 title: "Birds & Wild Life"
 date: 2020-02-23T20:17:21+05:30
 layout : "splbirdwildlife"
+featured_image : "https://source.unsplash.com/user/santm/Px24vzO7AGc/"
 ---
 # Picture from birds and wildlife
 

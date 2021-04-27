@@ -1,6 +1,6 @@
 {{ define "main" }} 
-<section class="hero is-medium is-dark image-box" style="--image-url: url(https://source.unsplash.com/user/santm/Px24vzO7AGc/)"> 
-  <!--is-dark here makes the burger background to dark-->
+<section class="hero is-medium is-dark image-box" {{ with .Params.featured_image }} style="--image-url: url({{ . }})" {{ end }}>
+ <!--is-dark here makes the burger background to dark-->
   {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">

@@ -30,11 +30,12 @@
 {{ end }}
 {{ "<!-- Language Tags -->" | safeHTML }}
 {{ "<!-- Image Tags -->" | safeHTML }}
-{{ with .Params.image }}
-  <meta itemprop="image" content="{{ . | absURL }}" />
-  <meta property="og:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image:src" content="{{ . | absURL }}" />
+{{ if eq .Kind "page" }}
+<meta itemprop="image1" content="{{ .Params.featured_image}}">
+<meta itemprop="image" content="{{ .Params.featured_image | absURL }}" />
+<meta property="og:image" content="{{ .Params.featured_image | absURL }}" />
+<meta name="twitter:image" content="{{ .Params.featured_image | absURL }}" />
+<meta name="twitter:image:src" content="{{ .Params.featured_image | absURL }}" />
 {{ else }}
   <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
   <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
@@ -107,7 +108,7 @@
       "name": "{{ .Site.Title }}",
       "logo": {
         "@type": "imageObject",
-        "url": "https://www.example.com/images/brand/favicon.png"
+        "url": "https://santm.com/images/logo192.JPG"
       }
     }
   }
@@ -126,7 +127,7 @@
       "{{ .Site.Params.github }}"
     ],
     "name": "{{ .Title }}",
-    "logo": "https://www.example.com/images/brand/favicon.png"
+    "logo": "https://santm.com/images/logo192.JPG"
   }
 </script>
 {{ "<!--Meta Tags for Website Pages -->" | safeHTML }}
@@ -135,4 +136,3 @@
 <meta name="robots" content="index,follow" />
 <meta name="googlebot" content="index,follow" />
 {{ "<!-- meta.html -->" | safeHTML }}
-

@@ -14,6 +14,8 @@ The first thing I did after getting up early was cleaning the rented car which w
 He suggested we take a different route as we are suppose to cross mighty Brahmaputra and reach North bank. But the route he suggested was not visible on Google Maps. He nicely draw out on a piece of paper for us. The initial road was excellent it was completely newly laid out tar road. And we had to take a right run for the bridge and that is where our biggest surprise of the trip was waiting.
 
 It was a handmade bamboo bridge. It was quite low and narrow no side support and only one car can can pass at a time. When I say one car at a time it means only one car will be crossing the whole length of the bridge before anything can got on the bridge. As soon as we got on to the bridge the whole bridge was shaking and for real it was scary moment. As you know there is no safety net like you have on a Roller Coaster which are after all super fine piece of engineering and constant supervision. The small ride of 150 meters or so feft like eternity. We stopped the car as soon as we reached other bank as the heart rate was very high.
+
+As soon as we stopped the car one person came up with a receipt book, it seem the local villageres put up the make shift bambo bridge every year post monsoon and 
  
 
 

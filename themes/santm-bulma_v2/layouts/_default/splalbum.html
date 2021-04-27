@@ -1,5 +1,5 @@
 {{ define "main" }} 
-<section class="hero is-medium is-dark image-box" style="--image-url: url(https://lh3.googleusercontent.com/ccVTMAZwsDEkxku2s2GY7DzDBuy-QZHEbaWKW4MD3Oye_qqYQtGnEfuxvWABqSweefdW_S-nM5bOIquhwi-hDFBiuhSJzhCbNGOOQufvE3-RWbqSEICPNGn8nIAZX_7-lrf_YlJiqGo)"> 
+<section class="hero is-medium is-dark image-box" {{ with .Params.featured_image }} style="--image-url: url({{ . }})" {{ end }}> 
   <!--is-dark here makes the burger background to dark-->
   {{ partial "header" . }} 
   <div class="hero-body">

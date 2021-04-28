@@ -73,11 +73,11 @@
   </section>
   <section class="bd-index-section" style="--bd-section-h: 229deg;">
     <div class="container">
-      <div class="columns is-multiline">
+      <div class="tile is-parent">
         {{- range ( where site.RegularPages "Section" "blog" | first 4 ) }}
-        <div class="column is-12-mobile is-6-tablet is-3-desktop">
-          <div class="card is-slightly-rounded">
-            <div class='card-header'>
+        <div class="tile is-parent">
+        <div class="tile is-child card is-slightly-rounded">
+          <div class='card-header'>
               <div class="card-header-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
             </div> <!-- card header-->
             <div class="card-image">
@@ -97,7 +97,7 @@
                   <span class='has-text-info'><a class="button has-background-grey-lighter has-text-centered" href="{{ .RelPermalink }}" role="button"><nobr>Read more →</nobr></a></span>
                 </p>
               </footer>
-            </div>
+            </div>  
           </div>
         </div>
         {{ end }}

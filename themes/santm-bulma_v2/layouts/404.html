@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html>
-<!-- <link rel="stylesheet" href="/css/debug.css"> -->
-{{- partial "head.html" . -}}
+<html prefix="og: http://ogp.me/ns#" lang="{{ .Language }}">
+  <head itemscope itemtype="{{ .Site.BaseURL }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <!-- All the meta tags below will come under this meta partial -->
+        {{ partial "meta" . }} 
+        {{- partial "head_css" . -}} 
+        {{- partial "head.html" . -}} 
+        <style>
+.hero {
+	background: black url(https://source.unsplash.com/user/santm/1920x1080/daily?q=25) center / cover;
+}
+@media (orientation: portrait) { .hero { background: black url(https://lh3.googleusercontent.com/3X86VDI4hYiqN1DmYgiqr8Ie8iQL2zeDUkqq18L1raRHZqDSux0xS9sv4mH_Ra47poCVwPoER-iKp6pJ8pjJ5gvXhv_GwfNE0z-owjBnacjEbsFe1rdtv77SRjZlGWhgGhSWugaH0Uk=w1024) center / cover; } }
+        </style>
+  </head>
 <body class="layout-default">
-  <section class="hero is-dark is-fullheight image-box" style="--image-url: url(https://source.unsplash.com/user/santm/)">
-    <!-- Hero head: will stick at the top <section class="hero is-dark is-fullheight"> -->
+  <!-- <section class="hero is-dark is-fullheight image-box" style="--image-url: url(https://source.unsplash.com/user/santm/1920x1080/daily?q=50)"> -->
+    <section class="hero is-dark is-fullheight">
+    <!-- Hero head: will stick at the top -->
     <div class="hero-head">
       {{ partial "header" . }}
     </div>
@@ -25,4 +40,6 @@
   </section>
   {{ partial "footer" . }}
 </body>
+
+
 </html>

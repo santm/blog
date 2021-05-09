@@ -23,27 +23,27 @@ theme = "santm-bulma_v2"
   ogimage = "/images/logo192.jpg"
   [[params.RightMenu]]
     medium = "Blog"
-    icon = "far fa-newspaper fa-2x"
+    icon = "far fa-newspaper"
     link = "/blog"
   [[params.RightMenu]]
     medium = "Birds & Wildlife"
-    icon = "fa fa-paw fa-2x"
+    icon = "fa fa-paw"
     link = "/bird-wildlife"
   [[params.RightMenu]]
     medium = "Travel Picture"
-    icon = "fa fa-camera-retro fa-2x"
+    icon = "fa fa-camera-retro"
     link = "/album"  
   [[params.RightMenu]]
     medium = "About"
-    icon = "fa fa-user fa-2x"
+    icon = "fa fa-user"
     link = "/about"
   [[params.RightMenu]]
     medium = "Contact"
-    icon = "fa fa-id-card fa-2x"
+    icon = "fa fa-id-card"
     link = "/contact"
   [[params.RightMenu]]
     medium = "Tags"
-    icon = "fa fa-tags fa-2x"
+    icon = "fa fa-tags"
     link = "/tags"
 [languages]
   [languages.en]

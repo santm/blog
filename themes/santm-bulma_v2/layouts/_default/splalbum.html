@@ -1,6 +1,6 @@
 {{ define "main" }} 
-<section class="hero is-medium is-dark image-box" {{ with .Params.featured_image }} style="--image-url: url({{ . }})" {{ end }}> 
-  <!--is-dark here makes the burger background to dark-->
+<section class="hero is-medium is-dark image-box" {{ with .Params.featured_image }} style="--image-url: url({{ . }})" {{ end }}>
+ <!--is-dark here makes the burger background to dark-->
   {{ partial "header" . }} 
   <div class="hero-body">
   <div class="container has-text-centered">
@@ -9,35 +9,36 @@
   </div>
 </section>
 <section>
-  <div class="container is-fluid column is-10">
-    <div class="blog-post section has-text-justified" itemprop="articleBody">
-	<p>
-	
-	{{ .Content}}
-	</p>
-	</div>
-	<!-- new way-->
+	<div class="container is-fluid column is-10">
+	  <div class="blog-post section has-text-justified" itemprop="articleBody">
+	  <p>
+	  
+	  {{ .Content}}
+	  </p>
+	  </div>
+	  	<!-- new way-->
 	{{ $url := "travel_album.json" }}
 	{{ $gistJ := getJSON $url}}
-	<div class="blog-post section has-text-justified" itemprop="articleBody">
-	<p>
-	<div class="columns is-mobile is-gapless is-multiline is-centered is-vcentered">
+	  <div class="blog-post section has-text-justified" itemprop="articleBody">
+	  <p>
+	  <div class="columns is-mobile is-gapless is-multiline is-centered is-vcentered">
 		{{ range $gistJ }}
 		<div class="column">
 			<div class="box" style="width: 168px;">
 				<figure class="image image is-128x128">
-					<a href="{{ .link}}"> <img src="{{ .image_src }}" alt="{{ .title }}" title="{{ .title }}" /> </a>
+					<a href="{{ .link}}"> <img src="{{ .img_src }}" alt="{{ .title }}" title="{{ .title }}" /> </a>
 				</figure>
 			<p class="title is-6 has-text-centered">{{ .title }}</p>
 		</div>
 	</div><!-- end of col -->
-		  {{ end }}
-	</div> <!-- end of text colmuns -->
-	<!-- new way-->
-	</p>			
-    </div>
-    </div>
-</section>
+		  {{ end }}  
+	  </div> <!-- end of text colmuns -->
+		  
+  </p>		
+	  </div>
+	  </div>
+  </section>
+  
 </main>
 {{ end }}
 {{ define "footer" }}

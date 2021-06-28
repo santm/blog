@@ -8,5 +8,4 @@ featured_image : "https://lh3.googleusercontent.com/ccVTMAZwsDEkxku2s2GY7DzDBuy-
 These are mostly family albums of our travel.  
 The more I look at them the more mistake I find with my pictures 😞  
 
-
-A work in progress 🚧 to organize more pictures and add them to Google albums. 
+A work in progress 🚧 to organize more pictures and add them to Google albums.   
